@@ -7,9 +7,6 @@ import android.view.View;
 import android.widget.EditText;
 
 public class EditWordActivity extends AppCompatActivity {
-
-    private static final String TAG = EditWordActivity.class.getSimpleName();
-
     private static final int NO_ID = -99;
     private static final String NO_WORD = "";
 

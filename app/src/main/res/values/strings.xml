@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">FanharilArdian_1202150022_Modul5</string>
-    <string name="hint_word">Word...</string>
+    <string name="app_name">Todo List</string>
+    <string name="hint_word">Todo Name</string>
     <string name="hint_definition">Definition...</string>
-    <string name="button_save">simpan</string>
+    <string name="button_save">Tambah ToDo</string>
     <string name="button_new">Baru</string>
     <string name="button_edit">Modif</string>
     <string name="button_delete">Apus aja</string>

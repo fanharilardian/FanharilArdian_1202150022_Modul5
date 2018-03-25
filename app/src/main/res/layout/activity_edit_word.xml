@@ -1,27 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/edit_word"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:hint="@string/hint_word"
+        android:layout_alignEnd="@+id/button_save"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:hint="Tambah ToDo"
         android:inputType="textAutoComplete"
         android:padding="@dimen/small_padding"
-        android:layout_marginBottom="@dimen/big_padding"
-        android:layout_marginTop="@dimen/big_padding"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/button_save"
-        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:layout_below="@+id/edit_word"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="105dp"
+        android:fontFamily="casual"
         android:onClick="returnReply"
-        android:text="@string/button_save"
-        android:textColor="@color/buttonLabel" />
+        android:text="Tambah To Do"
+        android:textAlignment="center"
+        android:textColor="@color/buttonLabel"
+        android:textSize="18sp" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_word"
+        android:layout_alignBottom="@+id/edit_word"
+        android:layout_alignStart="@+id/button_save"
+        android:layout_marginStart="15dp"
+        android:fontFamily="casual"
+        android:text="To Do Name"
+        android:textSize="18sp" />
+
+</RelativeLayout>
