@@ -1,10 +1,4 @@
 <resources>
-    <string name="app_name">Todo List</string>
-    <string name="hint_word">Todo Name</string>
-    <string name="hint_definition">Definition...</string>
-    <string name="button_save">Tambah ToDo</string>
-    <string name="button_new">Baru</string>
-    <string name="button_edit">Modif</string>
-    <string name="button_delete">Apus aja</string>
-    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="app_name">To Do List</string>
+    <string name="action_settings">Setting</string>
 </resources>
